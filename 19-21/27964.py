@@ -24,7 +24,7 @@ for s in range(1, 67):
             if vanya1.sum > 48:
                 first_win_combos.append(petya1) # Добавляем комбинацию, при которой Ваня выигрывает 1 ходом
                 break
-    if len(first_win_combos) == 4: # Ваня может выиграть 1 ходом при любых ходах Пети
+    if len(first_win_combos) == 3: # Ваня может выиграть 1 ходом при любых ходах Пети
         continue
     w = 0
     for petya1 in combos.l: # Петя 1
